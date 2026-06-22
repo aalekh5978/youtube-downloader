@@ -18,14 +18,14 @@ export const metadata: Metadata = {
   },
   description: "Download videos and audio easily with Alkot Downloader.",
   keywords: ["video downloader", "audio downloader", "alkot downloader"],
-  authors: [{ name: "Aalekh Sharma" }],
-  creator: "Aalekh Sharma",
-  metadataBase: new URL("https://your-render-url.onrender.com"),
+  authors: [{ name: "Aalekh Thakur" }],
+  creator: "Aalekh Thakur",
+  metadataBase: new URL("https://alkot-downloader.onrender.com"),
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-render-url.onrender.com",
+    url: "https://alkot-downloader.onrender.com",
     title: "Alkot Downloader",
     description: "Fast video and audio downloads.",
     siteName: "Alkot Downloader",
