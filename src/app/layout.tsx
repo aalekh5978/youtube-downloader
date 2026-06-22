@@ -13,39 +13,30 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "YouTube Downloader",
-    template: "%s | YouTube Downloader",
+    default: "Alkot Downloader",
+    template: "%s | Alkot Downloader",
   },
-  description: "An open-source YouTube video and audio downloader powered by Next.js and yt-dlp.",
-  keywords: ["youtube downloader", "yt-dlp", "nextjs", "open source"],
-  authors: [{ name: "Uday Sharma", url: "https://github.com/udaysharmadev" }],
-  creator: "Uday Sharma",
-  metadataBase: new URL("https://youtube-downloader.udaysharma.dev"),
+  description: "Download videos and audio easily with Alkot Downloader.",
+  keywords: ["video downloader", "audio downloader", "alkot downloader"],
+  authors: [{ name: "Aalekh Sharma" }],
+  creator: "Aalekh Sharma",
+  metadataBase: new URL("https://your-render-url.onrender.com"),
+
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://youtube-downloader.udaysharma.dev",
-    title: "YouTube Downloader",
-    description: "An open-source YouTube video and audio downloader powered by Next.js and yt-dlp.",
-    siteName: "YouTube Downloader",
-    images: [
-      {
-        url: "https://raw.githubusercontent.com/udaysharmadev/Youtube-Downloader/main/public/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "YouTube Downloader",
-      },
-    ],
+    url: "https://your-render-url.onrender.com",
+    title: "Alkot Downloader",
+    description: "Fast video and audio downloads.",
+    siteName: "Alkot Downloader",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "YouTube Downloader",
-    description: "An open-source YouTube video and audio downloader powered by Next.js and yt-dlp.",
-    creator: "@udaysharmatech",
-    images: ["https://raw.githubusercontent.com/udaysharmadev/Youtube-Downloader/main/public/og-image.png"],
+    title: "Alkot Downloader",
+    description: "Fast video and audio downloads.",
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
