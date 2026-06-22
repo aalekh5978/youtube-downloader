@@ -12,17 +12,17 @@ export default function Home() {
         <div className="space-y-4">
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a 
-              href="https://github.com/udaysharmadev/Youtube-Downloader"
+              href="https://www.youtube.com/@AlkotMusicLofi"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full border border-border/50 bg-muted/30 px-3 py-1.5 text-sm font-medium text-muted-foreground transition-all hover:bg-muted/80 hover:text-foreground hover:border-border"
             >
-              Open Source on GitHub
+              Visit Alkot
               <GithubIcon className="ml-2 h-4 w-4" />
             </a>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground">
-            YouTube Downloader
+            Alkot Downloader
           </h1>
           <p className="max-w-xl mx-auto text-lg text-muted-foreground">
             An open-source interface for yt-dlp. Enter a YouTube URL to extract native video formats and merge audio streams.
